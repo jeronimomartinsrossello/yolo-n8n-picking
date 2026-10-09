@@ -1,0 +1,18 @@
+[project]
+name = "yolo-n8n-picking"
+version = "0.1.0"
+description = "PoC de visión para picking: detección YOLO en tiempo real con notificación a n8n vía Webhook."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 110
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
