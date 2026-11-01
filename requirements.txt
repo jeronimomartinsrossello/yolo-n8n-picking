@@ -1,4 +1,4 @@
-ultralytics==8.4.173
+ultralytics==8.4.192
 opencv-python==5.0.0.93
 requests==2.34.2
 python-dotenv==1.2.4
